@@ -170,18 +170,19 @@ header #logotipo {
 #banner {
 	width: 100%;
 	height: 728px;
-	background: url("../img/banner.jpg") no-repeat;
-	top: -265px;
 	position: relative;
+	background: url("../img/banner.jpg") no-repeat;
+	background-position: 0px -110px;	
 	background-size: cover;
+	top: -150px;
 }
 
 #banner h1{
-	color: #FFF
-	top: 300;
+	color: #FFF;
+	top: 300px;
 	position: relative;
 	font-size: 92px;
-	text-shadow: 2px 2px 2px rgba(0,0,0,.45);
+	text-shadow: 2px 2px 2px rgba(0,0,0, .45);
 	font-family: 'OpenSans-Light';
 	margin-left: 50px;
 }
@@ -190,12 +191,14 @@ header #logotipo {
 	font-size: 32px;
 	display: block;
 	color: #FFF;
+	font-family: 'OpenSans';
+	font-weight: bold;
 }
 
 #news
 {
 	position: relative;
-	top: -110px;
+	top: 0px;
 }
 
 #news h2 {
@@ -207,7 +210,7 @@ header #logotipo {
 	margin: 0 auto;
 }
 #news hr {
-	border: #FDE192 solid 2px;
+	border: #FDE192 solid 3px;
 	width:  200px;
 	margin: 0 auto;
 }
@@ -227,3 +230,181 @@ header #logotipo {
 	font-family: 'OpenSans'
 }
 
+#estatisticas {
+	background-color: #5E299A;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+
+}
+#estatisticas p {
+	color: #FDE092;
+	text-transform: uppercase;
+	font-family: 'OpenSans';
+	font-size: 64px;
+	margin-top: 36px;
+}
+
+#estatisticas p small{
+	color: #FFF;
+	font-size: 24px;
+	display: block;
+
+}
+
+#call-to-action{
+	text-align: center;
+	margin-top: 105px;
+}
+
+#call-to-action h2 {
+	color: #5E2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	position: relative;
+	margin: 0 auto;
+}
+#call-to-action hr {
+	border: #FDE192 solid 3px;
+	width:  200px;
+	margin: 0 auto;
+}
+
+#call-to-action p {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+#call-to-action .btn{
+	min-width: 164px;
+	height: 44px;
+	line-height: 34px;
+	
+	
+}
+
+#call-to-action .btn-roxo{
+	color: #fff;
+	background-color: #5E299A;
+	border-color: #5E299A;
+	float: left;
+	margin-left: 300px;
+	
+}
+
+#call-to-action .btn-amarelo{
+	color: #000;
+	background-color: #FDE192;
+	border-color: #FDE192;
+	float: left;
+	margin-left: 50px;
+}
+
+#call-to-action .row-max-400{
+	margin: 0 auto;
+	max-height: 400px;
+
+}
+
+footer {
+	margin-top: 110px;
+}
+
+footer .row {
+	width: 100%;
+	
+}
+
+footer .row p  {
+	line-height: 64px;
+	display: inline;
+}
+
+footer .row-cinza-claro{
+	height: 200px;
+	background-color: #171F26;
+}
+
+footer .row-cinza-escuro{
+	height: 60px;
+	background-color: #11171D;
+	border-top: #242D37 1px solid;
+}
+footer .text-left{
+	color: #666;
+	font-family: 'OpenSans';
+	font-size: 14px;
+	position: absolute;
+	left: 3%;
+	
+}
+
+
+footer .text-roxo{
+	color: #623291;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	font-size: 14px;
+	position: absolute;
+	right: 3%;
+	
+
+}
+
+footer .logotipo{
+	margin-top: 28px;
+}
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch {
+	margin-top: 40px;
+}
+
+footer .row-cols h4{
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color: #FFF;
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+
+footer .row-cols h5{
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .row-cols time{
+	color: #FDE092;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+footer .col-links a,
+footer .col-get-in-touch a {
+	color: #FFF;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+footer .col-get-in-touch address{
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .col-get-in-touch address span{
+	display: inline;
+}
+footer .col-get-in-touch address i{
+	position: relative;
+	top: 0px;
+}
+footer .col-get-in-touch i{
+	color: #9B9B9B;
+	font-size: 20px;
+	margin:0 6px;
+}
+footer .col-get-in-touch p{
+	line-height: 20px;
+}
