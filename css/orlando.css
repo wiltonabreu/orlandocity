@@ -116,7 +116,10 @@ header .header-black li a {
 header #logotipo {
 	position: absolute;
 	top: 20px;
+	z-index: 3;
 }
+
+
 #menu{
 	margin: 36px;
 	position: absolute;
@@ -128,7 +131,19 @@ header #logotipo {
 	font-family: "OpenSans";
 }
 #menu li.search{
-	width: 182px;
+	width: 200px;
+	transition-timing-function: cubic-bezier(1,-.91,.91,1);
+	transition-duration: 1s;
+	background-color: #5C2D90;
+	color: #FFF;
+	border: none;
+	height: 30px;
+	
+	
+}
+
+#menu li.search.ativo{
+	width: 300px;
 }
 
 #menu li.search input{
@@ -137,18 +152,23 @@ header #logotipo {
 	border: none;
 	height: 30px;
 	line-height: 30px;
+	padding-left: 8px;
 }
 
-#menu li.search ::-webkit-input-placehoder{
-	color: #FFFFFF;
+#menu li.search.ativo input{
+	width: 300px;
+}
+
+#menu li.search ::-webkit-input-placeholder {
+	color: #fff;	
 }
 
 #menu li.search button {
 	background: none;
 	border: none;
 	position: absolute;
-	right: 3px;
-	top: 2px;
+	right: -3px;
+    top: 2px;
 }
 #menu li.search button i {
 	font-size: 14px;
@@ -185,6 +205,12 @@ header #logotipo {
 	text-shadow: 2px 2px 2px rgba(0,0,0, .45);
 	font-family: 'OpenSans-Light';
 	margin-left: 50px;
+	transition:1s;
+}
+#banner h1.efeito {
+	color:red;
+	font-size:12em;
+	
 }
 
 #banner h1 small{
@@ -228,6 +254,14 @@ header #logotipo {
 	color: #A7A7A7;
 	font-size: 18px;
 	font-family: 'OpenSans'
+}
+
+#news .thumbnails .item-inner{
+	padding: 10px;
+}
+
+#news .thumbnails .item-inner img{
+	width: 100%;
 }
 
 #estatisticas {
@@ -407,4 +441,9 @@ footer .col-get-in-touch i{
 }
 footer .col-get-in-touch p{
 	line-height: 20px;
+}
+
+video {
+	width: 60%;
+	margin: 0 auto;
 }
