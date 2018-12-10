@@ -224,7 +224,7 @@ header #logotipo {
 #news
 {
 	position: relative;
-	top: 0px;
+	top: -135px;
 }
 
 #news h2 {
@@ -322,7 +322,7 @@ header #logotipo {
 	background-color: #5E299A;
 	border-color: #5E299A;
 	float: left;
-	margin-left: 300px;
+	margin-left: 350px;
 	
 }
 
@@ -429,10 +429,14 @@ footer .col-get-in-touch address{
 }
 footer .col-get-in-touch address span{
 	display: inline;
+
 }
 footer .col-get-in-touch address i{
 	position: relative;
+
 	top: 0px;
+
+	margin-left: 9px;
 }
 footer .col-get-in-touch i{
 	color: #9B9B9B;
