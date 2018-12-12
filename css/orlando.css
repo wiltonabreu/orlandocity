@@ -450,4 +450,24 @@ footer .col-get-in-touch p{
 video {
 	width: 60%;
 	margin: 0 auto;
+	left: 100px;
+}
+
+.plyr--video {
+    background: #000;
+    overflow: hidden;
+    vertical-align: 33px;
+    top: 3px;
+    margin-left: 265px;
+    width: 600px;
+    
+}
+
+.plyr__video-wrapper {
+    background: #000;
+    border-radius: inherit;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    
 }
