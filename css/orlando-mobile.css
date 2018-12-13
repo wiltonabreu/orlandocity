@@ -1,0 +1,222 @@
+/*Tamanho padrão para tablets*/
+@media only screen and (max-width: 768px){
+	header .header-black ul{
+		display: none;
+	}
+}
+
+/*Tamanho padrão para Smartphones*/
+@media only screen and (max-width: 480px){
+	header .header-black ul , #menu{
+		display: none;
+	}
+
+	#logotipo{
+		left: 32%;
+	}
+
+	#btn-bars, #btn-search {
+		color: #fff;
+		font-size: 22px;
+		position: absolute;
+		top: 4px;
+		background: none;
+		border: none;
+		display: block;
+
+	}
+	#btn-bars {
+		left: 4px;
+
+	}
+	#btn-search {
+		right: 4px;
+	}
+
+	#banner{
+		height: 317px;
+		background-size: cover;
+		background-position: 0;
+		text-align: center;
+	}
+	#banner h1{
+		top: 180px;
+		font-size: 48px;
+		margin-left: 10px;
+	}
+	#banner h1 small {
+		
+		font-size: 22px;
+		
+	}
+	#news {
+	    margin-left: -5px;
+	}
+
+	#news h2{
+		font-size: 32px;
+		top: -110px;
+	}
+	#news .thumbnails h3 {
+		font-size: 17px;
+		margin-top: 18px;
+	}
+	#news hr{
+		border-width: 2px;
+
+	}
+	#news .thumbnails {
+    	margin-top: -100px;
+	}
+
+	.owl-carousel .owl-stage-outer {
+	    position: relative;
+	    overflow: hidden;
+	    margin-left: 15px;
+	}
+
+	.thumbnails {
+    	text-align: center;
+	}
+	#news .thumbnails .item-inner img{
+		width: 80%;
+		margin-left: 33px;
+	}
+	
+	#btn-news-prev, #btn-news-next{
+		display: block;
+		background: none;
+		border: none;
+		color: #5E2699;
+		font-size: 48px;
+		position: absolute;
+		top: -9px;
+		z-index: 4;
+		outline: 0;
+	}
+	#btn-news-next{
+		right: 10px;
+	}
+
+	.owl-theme .owl-nav {
+	    display: none;
+	}
+	
+	.owl-theme .owl-dots, .owl-theme .owl-nav {
+	    margin-top: 4px;
+	    margin-left: 30px;
+	}
+
+	#estatisticas {	    
+	    height: inherit;	    
+	}
+
+	#call-to-action {
+    
+	    margin-top: 33px;
+	}
+
+	#call-to-action h2 {
+	    margin-top: 40px;
+	    font-size: 36px;
+	    margin-left: 15px;
+	    margin-right: 15px;
+	    
+	}
+
+	#call-to-action p {
+	    
+	    font-size: 15px;
+	    margin-left: 15px;
+	    margin-right: 15px;
+	}
+
+	#call-to-action .btn-amarelo {
+	    
+	    margin-top: -44px;
+	    margin-left: -5px;
+
+	    
+	}
+
+	#call-to-action .btn-roxo {
+	    
+	    margin-left: 162px;
+	    margin-left: 170px;
+	}
+	
+	footer {
+	    margin-top: 60px;
+	}
+
+	.copyright-mobile p{
+		font-size: 10px;
+		line-height: 0;
+	}
+	.copyright-mobile .text-left{
+		float: inherit !important;
+	}
+	.copyright-mobile .text-roxo{
+		margin-top: 33px;
+	}
+
+	footer .row p {
+		margin-top: 5px;
+		line-height: 20px;
+		text-align: center;
+	}
+	footer .row{
+		margin: 0;
+	}
+	
+	footer .list-socials {
+		
+		position: absolute;
+		width: 100%;
+		left: 24px;
+		top: 50px;
+	}
+	footer .list-socials a{
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+
+		
+	}
+	footer .list-socials i{
+		font-size: 31px;
+    	margin-top: 6px; 
+	}
+
+	footer .col-md-10 {
+		padding: 0;
+	}
+	footer .row-cinza-claro {
+	    height: 157px;
+	    
+	}
+	
+	footer .row-fluid {
+	    display: -webkit-box;
+	}
+	footer .btn-footer{
+		width: 100%;
+		background-color: #11171D;
+		height: 44px;
+		line-height: 35px;
+	}
+
+	footer .col-6 {
+		padding: 0;
+		padding-right: 5px;
+	}
+
+	footer .col-6:last-child {
+		padding-right: 0px;
+		padding-left: 5px;
+	}
+
+	footer .hidden-sm-up{
+		margin-top: -10px;
+	}
+}
