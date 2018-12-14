@@ -504,5 +504,10 @@ html, body {
 }
 
 footer .row-fluid {
-	    display: none;
-	}
+    display: none;
+}
+
+.page-up {
+    display: none;
+    
+}

@@ -58,4 +58,24 @@ $(document).ready(function(){
 	    owl.trigger('prev.owl.carousel', [300]);
 	});
 
+	$('#page-up').click(function(){
+	    $("html, body").animate({ scrollTop: 0 }, 1000);
+	    return false;
+	});
+
+	$('#btn-bars').click(function(){
+	    $("header").toggleClass("open-menu");
+	});
+
+	$("#menu-mobile-mask, .btn-close").click(function(){
+	    $("header").removeClass("open-menu");
+	});
+
+	$("#btn-search").click(function(){
+	    $("header").toggleClass("open-search");
+	    $("input-search-mobile").focus();
+	});
+
+
+
 });
