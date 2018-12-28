@@ -1,4 +1,7 @@
-<footer>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/owlcarousel2/dist/owl.carousel.min.js"></script>	<footer>
 			<div class="row row-cinza-claro">
 				<div class="container">
 					
@@ -30,7 +33,8 @@
 									<ul class="list-unstyled">
 										<li><a href="#"><i class="fa fa-angle-right"></i>Tickets</a></li>
 										<li><a href="#"><i class="fa fa-angle-right"></i>Newss</a></li>
-										<li><a href="#"><i class="fa fa-angle-right"></i>Schedules</a></li>
+										<li><a href="#"><i class="fa fa-angle-right"></i>Schedules</a></li>						
+
 									</ul>
 								</div>
 
@@ -92,5 +96,9 @@
 				</div>
 
 			</div>
-
-		</footer>
+</footer>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/raty/lib/jquery.raty.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/owlcarousel2/dist/owl.carousel.min.js"></script>
+<script src="js/efeitos.js"></script>	

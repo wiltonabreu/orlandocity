@@ -77,6 +77,7 @@
 
 <?php include_once("footer.php");?>
 
+
 <script src="https://cdn.plyr.io/3.4.7/plyr.js"></script>
 <script>
 		 $(function(){
