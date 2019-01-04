@@ -23,4 +23,35 @@ $app->get('/shop', function () {
     }
 );
 
+$app->get('/produtos', function(){
+	require_once("inc/configuration.php");
+	$sql = new Sql();
+
+    $data = $sql->select("SELECT * FROM tb_produtos WHERE preco_promorcional > 0 order by preco_promorcional desc limit 3;"); 
+      
+    foreach ($data as &$produto) {
+
+    	$preco = $produto['preco'];
+    	$centavos = explode(".", $preco);
+
+    	$produto['preco'] = number_format($preco,0,",",".");
+
+    	$produto['centavos'] = end($centavos);
+
+    	$produto['parcelas'] = 10;
+
+    	$produto['parcela'] = number_format($preco/$produto['parcelas'],2,",",".");
+
+    	$produto['total'] = number_format($preco,2,",",".");
+
+
+    }
+
+    echo json_encode($data);
+});
+
+	
+	
+	
+
 $app->run();
